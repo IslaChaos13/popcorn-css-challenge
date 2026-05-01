@@ -1,3 +1,46 @@
+div{
+    display:inline-flex;
+    align-items: center;
+}
+header{
+    background-color: #FFDBAA ;
+    color:#553100;
+    font-size:large;
+    font-weight: bolder;
+    text-align: left;
+    padding:30px;
+}
+
+button{
+    background-color: #805215;
+    padding:5px;
+    gap: 20px 40px;
+    border: none;
+    color: white;
+    font-size: medium;
+    font-weight:500;
+}
+.main{
+    background-color: #d4a76a;
+}
+
+.cards{
+    display: inline-block;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    gap: 10px 10px;
+    width: 300px;
+    height: auto;
+    border-style: solid;
+    border-radius: 1px;
+    }
+
+
+
+
+
+
 /*COLORS:
 Header background - #FFDBAA
 button - #805215
