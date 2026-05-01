@@ -1,24 +1,39 @@
+html{
+    background-color: #D4A76A
+}
 #navbar{
     display:flex;
     background-color:#FFDBAA ;
     color: #553100
 }
+.navbar-button{
+    background-color: #805215;
+    color: white;
+    justify-content: center;
+}
 #details{
     display: flex;
-    background-color white;
+    background-color: #D4A76A;
     margin-bottom: 25px;
     text-align: center;
 }
-.pageDetails{
+#pageDetails{
     background-color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin:3px
-    border 3px solid black;
-    height: 10emm;
-    width: 10em;
-    margin-left: 3em;
-    margin-right: 3em;
+
+    border: black;
+    border-style:solid;
+    border-radius: 3px;
+    padding: left 10px;
+    padding: right 10px;
+    margin: 3px;
+}
+
+#about{
+    background-color: white;
+    border: black;
+    border-style: solid;
+    text-align:center;
+
 }
 /*COLORS:
 Header background - #FFDBAA
